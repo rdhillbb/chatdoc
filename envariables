@@ -1,5 +1,7 @@
-export GOVBOTIC_INGESTION_STORAGE="/Users/randolphhill/govbotics/deepinfra/Pansolusi/fifserver/ingestion/DOCUMENTS"
-export GOVBOTIC_FILE_SANDBOX="/Users/randolphhill/govbotics/deepinfra/Pansolusi/fifserver/ingestion/sandbox"
+#location for there the ingested documents
+export GOVBOTIC_INGESTION_STORAGE=""
+#Temporary storage for inestion
+export GOVBOTIC_FILE_SANDBOX=""
 export GOVBOTIC_FILE_SANDBOX="/tmp/TEMP"
 export GOVBOTIC_API_BASE_URL="http://127.0.0.1:8000"
 export GOVBOTIC_API_TOKEN="FIFTOKENFORMAT"
