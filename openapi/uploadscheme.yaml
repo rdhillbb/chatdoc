@@ -1,0 +1,48 @@
+openapi: 3.0.0
+info:
+  title: File Upload API
+  version: '1.0'
+servers:
+  - url: 'http://localhost:8050'
+paths:
+  /uploadfile/:
+    post:
+      summary: Upload files with metadata
+      description: Allows uploading of files along with associated metadata.
+      operationId: uploadFiles
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                filedrawer:
+                  type: string
+                  description: The name of the filedrawer where files will be uploaded.
+                  example: 'GovBotica'
+                files:
+                  type: array
+                  items:
+                    type: string
+                    format: binary
+                  description: The files to be uploaded.
+              required:
+                - filedrawer
+                - files
+      responses:
+        '200':
+          description: Files uploaded successfully.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: 'Files have been successfully uploaded.'
+        '400':
+          description: Bad request, e.g., missing required fields or files.
+        '500':
+          description: Server error, e.g., failed to store the files.
+

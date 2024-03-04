@@ -1,0 +1,2 @@
+uploadfldr.py:def serverupload(filedrawer, filedir):
+uploadfldr.py:result = serverupload(filedrawer, filedir)

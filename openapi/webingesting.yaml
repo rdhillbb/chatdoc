@@ -1,0 +1,54 @@
+openapi: 3.0.0
+info:
+  title: Local Web Ingestion API
+  version: '1.0'
+servers:
+  - url: 'http://localhost:8050'
+paths:
+  /ingestlocalweb/:
+    post:
+      summary: Upload file information
+      description: Ingests a file from a URL or a local path for processing.
+      operationId: uploadFile
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                request:
+                  type: string
+                  description: Type of request, for this operation it is always 'upload'.
+                  example: 'upload'
+                filedrawer:
+                  type: string
+                  description: Name of the filedrawer where the file is to be stored or categorized.
+                  example: 'Garlic'
+                filename:
+                  type: string
+                  description: URL or local path of the file to upload.
+                  example: 'https://www.webmd.com/vitamins/ai/ingredientmono-300/garlic'
+              required:
+                - request
+                - filedrawer
+                - filename
+      responses:
+        '200':
+          description: Successfully ingested the file information.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: 'success'
+                  message:
+                    type: string
+                    example: 'File information has been successfully uploaded and is being processed.'
+        '400':
+          description: Bad Request - Invalid input or missing required fields.
+        '500':
+          description: Internal Server Error - Error processing the request.
+

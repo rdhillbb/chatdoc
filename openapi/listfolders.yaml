@@ -1,0 +1,72 @@
+openapi: 3.0.0
+info:
+  title: GovBotic API
+  version: '1.0'
+servers:
+  - url: '{GOVBOTIC_API_BASE_URL}'
+    variables:
+      GOVBOTIC_API_BASE_URL:
+        default: 'https://api.govbotic.example.com'
+paths:
+  /{ENDPOINT}:
+    post:
+      summary: List files
+      description: This endpoint lists files based on the provided request data.
+      operationId: listFiles
+      parameters:
+        - name: ENDPOINT
+          in: path
+          required: true
+          schema:
+            type: string
+          description: The API endpoint to which the request is sent.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                requestType:
+                  type: string
+                  example: 'listfiles'
+                dataOperands:
+                  type: string
+                  example: 'YourDataOperands'
+                fileNames:
+                  type: array
+                  items:
+                    type: string
+                  example: ['file1.txt', 'file2.txt']
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: 'success'
+                  data:
+                    type: array
+                    items:
+                      type: string
+                    example: ['file1.txt', 'file2.txt']
+                  message:
+                    type: string
+                    example: 'Files listed successfully.'
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized
+      security:
+        - BearerAuth: []
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+

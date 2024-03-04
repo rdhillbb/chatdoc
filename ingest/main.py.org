@@ -1,0 +1,66 @@
+from fastapi import FastAPI
+import os, sys
+from pydantic import BaseModel, Field
+from typing import Optional
+from ingestfiles import setupingest,ing_singlefile
+sys.path.append("../")
+#from fileops.fileutl import list_dir
+from fileops.onlinedownload import is_valid_download_url
+from fileops.webfildload import download_file
+from datetime import datetime
+from objmsg.messagedef import ErrorResponse, REQLocalWebFile, RESPLocalWebFile
+
+
+def print_current_time_date():
+    # Get the current date and time
+    now = datetime.now()
+
+    # Format the date and time as a string
+    current_time_date = now.strftime("%Y-%m-%d %H:%M:%S")
+
+    # Print the current date and time
+    print("Current Date & Time:", current_time_date)
+
+
+# Initialize the FastAPI app
+app = FastAPI()
+
+
+# Define the POST endpoint
+@app.post("/ingestlocalweb/", response_model=RESPLocalWebFile)
+async def process_file(request_data: REQLocalWebFile):
+    # Log request
+    print("REQUEST")
+    now = datetime.now()
+    current_time_date = now.strftime("%Y-%m-%d %H:%M:%S")
+    print("Current Date & Time:", current_time_date)
+    request_data.pretty_print()
+    print("---------\n")
+
+    dloadedfile = None  # Initialize to None
+
+    # Check if the URL is valid for downloading
+    if is_valid_download_url(request_data.filename):
+        dloadedfile = download_file(request_data.filename)
+        ingfile = setupingest(request_data.filedrawer, dloadedfile)
+        msg = ing_singlefile(ingfile)
+        print(msg)
+        response = RESPLocalWebFile(
+            request=request_data.request, status="success", error=None
+        )
+    elif os.path.exists(request_data.filename):
+        # Assuming you might need to download the file if it doesn't exist locally
+        ingfile = setupingest(request_data.filedrawer, request_data.filename)
+        msg = ing_singlefile(ingfile)
+        print(msg)
+        response = RESPLocalWebFile(
+            request=request_data.request, status="success", error=None
+        )
+    else:
+        # Handle case where file does not exist and is not a valid download URL
+        response = RESPLocalWebFile(
+            request=request_data.request, status="failure",
+            error=ErrorResponse(code="FileNotFound", message="The file does not exist or URL is invalid.")
+        )
+
+    return response

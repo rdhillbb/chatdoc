@@ -1,0 +1,449 @@
+Listing directories two levels deep from: /Users/randolphhill/govbotics/deepinfra/Pansolusi/fifserver/ingestion/DOCUMENTS, ignoring 'chroma_db' at the first level.
+Accounting/c209d3be-4fc4-48c0-b553-974766f538a2
+Accounting/KVP Individual Return Engagement Letter
+SKELETONOFTHOURHT/2307.15337
+your_filecabinet_name/file
+your_filecabinet_name/KVP Individual Return Engagement Letter
+USAIDPOLICY/PA00K7SH
+FIFDOCUMENT/FSD_BackOffice_LouiseV2-06012022
+FIFDOCUMENT/User Manual Guide Produktif v.1.0
+FIFDOCUMENT/FD Microfinance App_v1.2
+CHAINOFTHOUGHT/2201.11903
+GARLIC/8817288
+GARLIC/ajp-4-001
+GARLIC/Garlic_ Proven health benefits and uses
+OFTHOUGHTSK/2307.15337
+{'Accounting': ['c209d3be-4fc4-48c0-b553-974766f538a2', 'KVP Individual Return Engagement Letter'], 'SKELETONOFTHOURHT': ['2307.15337'], 'your_filecabinet_name': ['file', 'KVP Individual Return Engagement Letter'], 'USAIDPOLICY': ['PA00K7SH'], 'FIFDOCUMENT': ['FSD_BackOffice_LouiseV2-06012022', 'User Manual Guide Produktif v.1.0', 'FD Microfinance App_v1.2'], 'CHAINOFTHOUGHT': ['2201.11903'], 'GARLIC': ['8817288', 'ajp-4-001', 'Garlic_ Proven health benefits and uses'], 'OFTHOUGHTSK': ['2307.15337']}
+{
+    "Accounting": [
+        "c209d3be-4fc4-48c0-b553-974766f538a2",
+        "KVP Individual Return Engagement Letter"
+    ],
+    "SKELETONOFTHOURHT": [
+        "2307.15337"
+    ],
+    "your_filecabinet_name": [
+        "file",
+        "KVP Individual Return Engagement Letter"
+    ],
+    "USAIDPOLICY": [
+        "PA00K7SH"
+    ],
+    "FIFDOCUMENT": [
+        "FSD_BackOffice_LouiseV2-06012022",
+        "User Manual Guide Produktif v.1.0",
+        "FD Microfinance App_v1.2"
+    ],
+    "CHAINOFTHOUGHT": [
+        "2201.11903"
+    ],
+    "GARLIC": [
+        "8817288",
+        "ajp-4-001",
+        "Garlic_ Proven health benefits and uses"
+    ],
+    "OFTHOUGHTSK": [
+        "2307.15337"
+    ]
+}
+Received token: FIFTOKENFORMAT
+Accounting/c209d3be-4fc4-48c0-b553-974766f538a2
+Accounting/KVP Individual Return Engagement Letter
+SKELETONOFTHOURHT/2307.15337
+your_filecabinet_name/file
+your_filecabinet_name/KVP Individual Return Engagement Letter
+USAIDPOLICY/PA00K7SH
+FIFDOCUMENT/FSD_BackOffice_LouiseV2-06012022
+FIFDOCUMENT/User Manual Guide Produktif v.1.0
+FIFDOCUMENT/FD Microfinance App_v1.2
+CHAINOFTHOUGHT/2201.11903
+GARLIC/8817288
+GARLIC/ajp-4-001
+GARLIC/Garlic_ Proven health benefits and uses
+OFTHOUGHTSK/2307.15337
+{'Accounting': ['c209d3be-4fc4-48c0-b553-974766f538a2', 'KVP Individual Return Engagement Letter'], 'SKELETONOFTHOURHT': ['2307.15337'], 'your_filecabinet_name': ['file', 'KVP Individual Return Engagement Letter'], 'USAIDPOLICY': ['PA00K7SH'], 'FIFDOCUMENT': ['FSD_BackOffice_LouiseV2-06012022', 'User Manual Guide Produktif v.1.0', 'FD Microfinance App_v1.2'], 'CHAINOFTHOUGHT': ['2201.11903'], 'GARLIC': ['8817288', 'ajp-4-001', 'Garlic_ Proven health benefits and uses'], 'OFTHOUGHTSK': ['2307.15337']}
+{
+    "Accounting": [
+        "c209d3be-4fc4-48c0-b553-974766f538a2",
+        "KVP Individual Return Engagement Letter"
+    ],
+    "SKELETONOFTHOURHT": [
+        "2307.15337"
+    ],
+    "your_filecabinet_name": [
+        "file",
+        "KVP Individual Return Engagement Letter"
+    ],
+    "USAIDPOLICY": [
+        "PA00K7SH"
+    ],
+    "FIFDOCUMENT": [
+        "FSD_BackOffice_LouiseV2-06012022",
+        "User Manual Guide Produktif v.1.0",
+        "FD Microfinance App_v1.2"
+    ],
+    "CHAINOFTHOUGHT": [
+        "2201.11903"
+    ],
+    "GARLIC": [
+        "8817288",
+        "ajp-4-001",
+        "Garlic_ Proven health benefits and uses"
+    ],
+    "OFTHOUGHTSK": [
+        "2307.15337"
+    ]
+}
+INFO:     127.0.0.1:55694 - "POST /listfiledrawers/ HTTP/1.1" 200 OK
+Received token: FIFTOKENFORMAT
+Accounting/c209d3be-4fc4-48c0-b553-974766f538a2
+Accounting/KVP Individual Return Engagement Letter
+SKELETONOFTHOURHT/2307.15337
+your_filecabinet_name/file
+your_filecabinet_name/KVP Individual Return Engagement Letter
+USAIDPOLICY/PA00K7SH
+FIFDOCUMENT/FSD_BackOffice_LouiseV2-06012022
+FIFDOCUMENT/User Manual Guide Produktif v.1.0
+FIFDOCUMENT/FD Microfinance App_v1.2
+CHAINOFTHOUGHT/2201.11903
+GARLIC/8817288
+GARLIC/ajp-4-001
+GARLIC/Garlic_ Proven health benefits and uses
+OFTHOUGHTSK/2307.15337
+{'Accounting': ['c209d3be-4fc4-48c0-b553-974766f538a2', 'KVP Individual Return Engagement Letter'], 'SKELETONOFTHOURHT': ['2307.15337'], 'your_filecabinet_name': ['file', 'KVP Individual Return Engagement Letter'], 'USAIDPOLICY': ['PA00K7SH'], 'FIFDOCUMENT': ['FSD_BackOffice_LouiseV2-06012022', 'User Manual Guide Produktif v.1.0', 'FD Microfinance App_v1.2'], 'CHAINOFTHOUGHT': ['2201.11903'], 'GARLIC': ['8817288', 'ajp-4-001', 'Garlic_ Proven health benefits and uses'], 'OFTHOUGHTSK': ['2307.15337']}
+{
+    "Accounting": [
+        "c209d3be-4fc4-48c0-b553-974766f538a2",
+        "KVP Individual Return Engagement Letter"
+    ],
+    "SKELETONOFTHOURHT": [
+        "2307.15337"
+    ],
+    "your_filecabinet_name": [
+        "file",
+        "KVP Individual Return Engagement Letter"
+    ],
+    "USAIDPOLICY": [
+        "PA00K7SH"
+    ],
+    "FIFDOCUMENT": [
+        "FSD_BackOffice_LouiseV2-06012022",
+        "User Manual Guide Produktif v.1.0",
+        "FD Microfinance App_v1.2"
+    ],
+    "CHAINOFTHOUGHT": [
+        "2201.11903"
+    ],
+    "GARLIC": [
+        "8817288",
+        "ajp-4-001",
+        "Garlic_ Proven health benefits and uses"
+    ],
+    "OFTHOUGHTSK": [
+        "2307.15337"
+    ]
+}
+INFO:     127.0.0.1:55695 - "POST /listfiledrawers/ HTTP/1.1" 200 OK
+Received token: FIFTOKENFORMAT
+Accounting/c209d3be-4fc4-48c0-b553-974766f538a2
+Accounting/KVP Individual Return Engagement Letter
+SKELETONOFTHOURHT/2307.15337
+your_filecabinet_name/file
+your_filecabinet_name/KVP Individual Return Engagement Letter
+USAIDPOLICY/PA00K7SH
+FIFDOCUMENT/FSD_BackOffice_LouiseV2-06012022
+FIFDOCUMENT/User Manual Guide Produktif v.1.0
+FIFDOCUMENT/FD Microfinance App_v1.2
+CHAINOFTHOUGHT/2201.11903
+GARLIC/8817288
+GARLIC/ajp-4-001
+GARLIC/Garlic_ Proven health benefits and uses
+OFTHOUGHTSK/2307.15337
+{'Accounting': ['c209d3be-4fc4-48c0-b553-974766f538a2', 'KVP Individual Return Engagement Letter'], 'SKELETONOFTHOURHT': ['2307.15337'], 'your_filecabinet_name': ['file', 'KVP Individual Return Engagement Letter'], 'USAIDPOLICY': ['PA00K7SH'], 'FIFDOCUMENT': ['FSD_BackOffice_LouiseV2-06012022', 'User Manual Guide Produktif v.1.0', 'FD Microfinance App_v1.2'], 'CHAINOFTHOUGHT': ['2201.11903'], 'GARLIC': ['8817288', 'ajp-4-001', 'Garlic_ Proven health benefits and uses'], 'OFTHOUGHTSK': ['2307.15337']}
+{
+    "Accounting": [
+        "c209d3be-4fc4-48c0-b553-974766f538a2",
+        "KVP Individual Return Engagement Letter"
+    ],
+    "SKELETONOFTHOURHT": [
+        "2307.15337"
+    ],
+    "your_filecabinet_name": [
+        "file",
+        "KVP Individual Return Engagement Letter"
+    ],
+    "USAIDPOLICY": [
+        "PA00K7SH"
+    ],
+    "FIFDOCUMENT": [
+        "FSD_BackOffice_LouiseV2-06012022",
+        "User Manual Guide Produktif v.1.0",
+        "FD Microfinance App_v1.2"
+    ],
+    "CHAINOFTHOUGHT": [
+        "2201.11903"
+    ],
+    "GARLIC": [
+        "8817288",
+        "ajp-4-001",
+        "Garlic_ Proven health benefits and uses"
+    ],
+    "OFTHOUGHTSK": [
+        "2307.15337"
+    ]
+}
+INFO:     127.0.0.1:55705 - "POST /listfiledrawers/ HTTP/1.1" 200 OK
+Received token: FIFTOKENFORMAT
+Accounting/c209d3be-4fc4-48c0-b553-974766f538a2
+Accounting/KVP Individual Return Engagement Letter
+SKELETONOFTHOURHT/2307.15337
+your_filecabinet_name/file
+your_filecabinet_name/KVP Individual Return Engagement Letter
+USAIDPOLICY/PA00K7SH
+FIFDOCUMENT/FSD_BackOffice_LouiseV2-06012022
+FIFDOCUMENT/User Manual Guide Produktif v.1.0
+FIFDOCUMENT/FD Microfinance App_v1.2
+CHAINOFTHOUGHT/2201.11903
+GARLIC/8817288
+GARLIC/ajp-4-001
+GARLIC/Garlic_ Proven health benefits and uses
+OFTHOUGHTSK/2307.15337
+{'Accounting': ['c209d3be-4fc4-48c0-b553-974766f538a2', 'KVP Individual Return Engagement Letter'], 'SKELETONOFTHOURHT': ['2307.15337'], 'your_filecabinet_name': ['file', 'KVP Individual Return Engagement Letter'], 'USAIDPOLICY': ['PA00K7SH'], 'FIFDOCUMENT': ['FSD_BackOffice_LouiseV2-06012022', 'User Manual Guide Produktif v.1.0', 'FD Microfinance App_v1.2'], 'CHAINOFTHOUGHT': ['2201.11903'], 'GARLIC': ['8817288', 'ajp-4-001', 'Garlic_ Proven health benefits and uses'], 'OFTHOUGHTSK': ['2307.15337']}
+{
+    "Accounting": [
+        "c209d3be-4fc4-48c0-b553-974766f538a2",
+        "KVP Individual Return Engagement Letter"
+    ],
+    "SKELETONOFTHOURHT": [
+        "2307.15337"
+    ],
+    "your_filecabinet_name": [
+        "file",
+        "KVP Individual Return Engagement Letter"
+    ],
+    "USAIDPOLICY": [
+        "PA00K7SH"
+    ],
+    "FIFDOCUMENT": [
+        "FSD_BackOffice_LouiseV2-06012022",
+        "User Manual Guide Produktif v.1.0",
+        "FD Microfinance App_v1.2"
+    ],
+    "CHAINOFTHOUGHT": [
+        "2201.11903"
+    ],
+    "GARLIC": [
+        "8817288",
+        "ajp-4-001",
+        "Garlic_ Proven health benefits and uses"
+    ],
+    "OFTHOUGHTSK": [
+        "2307.15337"
+    ]
+}
+INFO:     127.0.0.1:55706 - "POST /listfiledrawers/ HTTP/1.1" 200 OK
+Received token: your_bearer_token_here
+Setting File Drawer /GARLIC/8817288
+Loading VB /GARLIC/8817288
+FILE DRAWER: /Users/randolphhill/govbotics/deepinfra/Pansolusi/fifserver/ingestion/DOCUMENTS//GARLIC/8817288/chroma_db
+INFO:     127.0.0.1:55708 - "POST /setfiledrawer/ HTTP/1.1" 200 OK
+Received token: FIFTOKENFORMAT
+Accounting/c209d3be-4fc4-48c0-b553-974766f538a2
+Accounting/KVP Individual Return Engagement Letter
+SKELETONOFTHOURHT/2307.15337
+your_filecabinet_name/file
+your_filecabinet_name/KVP Individual Return Engagement Letter
+USAIDPOLICY/PA00K7SH
+FIFDOCUMENT/FSD_BackOffice_LouiseV2-06012022
+FIFDOCUMENT/User Manual Guide Produktif v.1.0
+FIFDOCUMENT/FD Microfinance App_v1.2
+CHAINOFTHOUGHT/2201.11903
+GARLIC/8817288
+GARLIC/ajp-4-001
+GARLIC/Garlic_ Proven health benefits and uses
+OFTHOUGHTSK/2307.15337
+{'Accounting': ['c209d3be-4fc4-48c0-b553-974766f538a2', 'KVP Individual Return Engagement Letter'], 'SKELETONOFTHOURHT': ['2307.15337'], 'your_filecabinet_name': ['file', 'KVP Individual Return Engagement Letter'], 'USAIDPOLICY': ['PA00K7SH'], 'FIFDOCUMENT': ['FSD_BackOffice_LouiseV2-06012022', 'User Manual Guide Produktif v.1.0', 'FD Microfinance App_v1.2'], 'CHAINOFTHOUGHT': ['2201.11903'], 'GARLIC': ['8817288', 'ajp-4-001', 'Garlic_ Proven health benefits and uses'], 'OFTHOUGHTSK': ['2307.15337']}
+{
+    "Accounting": [
+        "c209d3be-4fc4-48c0-b553-974766f538a2",
+        "KVP Individual Return Engagement Letter"
+    ],
+    "SKELETONOFTHOURHT": [
+        "2307.15337"
+    ],
+    "your_filecabinet_name": [
+        "file",
+        "KVP Individual Return Engagement Letter"
+    ],
+    "USAIDPOLICY": [
+        "PA00K7SH"
+    ],
+    "FIFDOCUMENT": [
+        "FSD_BackOffice_LouiseV2-06012022",
+        "User Manual Guide Produktif v.1.0",
+        "FD Microfinance App_v1.2"
+    ],
+    "CHAINOFTHOUGHT": [
+        "2201.11903"
+    ],
+    "GARLIC": [
+        "8817288",
+        "ajp-4-001",
+        "Garlic_ Proven health benefits and uses"
+    ],
+    "OFTHOUGHTSK": [
+        "2307.15337"
+    ]
+}
+INFO:     127.0.0.1:55715 - "POST /listfiledrawers/ HTTP/1.1" 200 OK
+Received token: FIFTOKENFORMAT
+Accounting/c209d3be-4fc4-48c0-b553-974766f538a2
+Accounting/KVP Individual Return Engagement Letter
+SKELETONOFTHOURHT/2307.15337
+your_filecabinet_name/file
+your_filecabinet_name/KVP Individual Return Engagement Letter
+USAIDPOLICY/PA00K7SH
+FIFDOCUMENT/FSD_BackOffice_LouiseV2-06012022
+FIFDOCUMENT/User Manual Guide Produktif v.1.0
+FIFDOCUMENT/FD Microfinance App_v1.2
+CHAINOFTHOUGHT/2201.11903
+GARLIC/8817288
+GARLIC/ajp-4-001
+GARLIC/Garlic_ Proven health benefits and uses
+OFTHOUGHTSK/2307.15337
+{'Accounting': ['c209d3be-4fc4-48c0-b553-974766f538a2', 'KVP Individual Return Engagement Letter'], 'SKELETONOFTHOURHT': ['2307.15337'], 'your_filecabinet_name': ['file', 'KVP Individual Return Engagement Letter'], 'USAIDPOLICY': ['PA00K7SH'], 'FIFDOCUMENT': ['FSD_BackOffice_LouiseV2-06012022', 'User Manual Guide Produktif v.1.0', 'FD Microfinance App_v1.2'], 'CHAINOFTHOUGHT': ['2201.11903'], 'GARLIC': ['8817288', 'ajp-4-001', 'Garlic_ Proven health benefits and uses'], 'OFTHOUGHTSK': ['2307.15337']}
+{
+    "Accounting": [
+        "c209d3be-4fc4-48c0-b553-974766f538a2",
+        "KVP Individual Return Engagement Letter"
+    ],
+    "SKELETONOFTHOURHT": [
+        "2307.15337"
+    ],
+    "your_filecabinet_name": [
+        "file",
+        "KVP Individual Return Engagement Letter"
+    ],
+    "USAIDPOLICY": [
+        "PA00K7SH"
+    ],
+    "FIFDOCUMENT": [
+        "FSD_BackOffice_LouiseV2-06012022",
+        "User Manual Guide Produktif v.1.0",
+        "FD Microfinance App_v1.2"
+    ],
+    "CHAINOFTHOUGHT": [
+        "2201.11903"
+    ],
+    "GARLIC": [
+        "8817288",
+        "ajp-4-001",
+        "Garlic_ Proven health benefits and uses"
+    ],
+    "OFTHOUGHTSK": [
+        "2307.15337"
+    ]
+}
+INFO:     127.0.0.1:55716 - "POST /listfiledrawers/ HTTP/1.1" 200 OK
+Received token: FIFTOKENFORMAT
+Accounting/c209d3be-4fc4-48c0-b553-974766f538a2
+Accounting/KVP Individual Return Engagement Letter
+SKELETONOFTHOURHT/2307.15337
+your_filecabinet_name/file
+your_filecabinet_name/KVP Individual Return Engagement Letter
+USAIDPOLICY/PA00K7SH
+FIFDOCUMENT/FSD_BackOffice_LouiseV2-06012022
+FIFDOCUMENT/User Manual Guide Produktif v.1.0
+FIFDOCUMENT/FD Microfinance App_v1.2
+CHAINOFTHOUGHT/2201.11903
+GARLIC/8817288
+GARLIC/ajp-4-001
+GARLIC/Garlic_ Proven health benefits and uses
+OFTHOUGHTSK/2307.15337
+{'Accounting': ['c209d3be-4fc4-48c0-b553-974766f538a2', 'KVP Individual Return Engagement Letter'], 'SKELETONOFTHOURHT': ['2307.15337'], 'your_filecabinet_name': ['file', 'KVP Individual Return Engagement Letter'], 'USAIDPOLICY': ['PA00K7SH'], 'FIFDOCUMENT': ['FSD_BackOffice_LouiseV2-06012022', 'User Manual Guide Produktif v.1.0', 'FD Microfinance App_v1.2'], 'CHAINOFTHOUGHT': ['2201.11903'], 'GARLIC': ['8817288', 'ajp-4-001', 'Garlic_ Proven health benefits and uses'], 'OFTHOUGHTSK': ['2307.15337']}
+{
+    "Accounting": [
+        "c209d3be-4fc4-48c0-b553-974766f538a2",
+        "KVP Individual Return Engagement Letter"
+    ],
+    "SKELETONOFTHOURHT": [
+        "2307.15337"
+    ],
+    "your_filecabinet_name": [
+        "file",
+        "KVP Individual Return Engagement Letter"
+    ],
+    "USAIDPOLICY": [
+        "PA00K7SH"
+    ],
+    "FIFDOCUMENT": [
+        "FSD_BackOffice_LouiseV2-06012022",
+        "User Manual Guide Produktif v.1.0",
+        "FD Microfinance App_v1.2"
+    ],
+    "CHAINOFTHOUGHT": [
+        "2201.11903"
+    ],
+    "GARLIC": [
+        "8817288",
+        "ajp-4-001",
+        "Garlic_ Proven health benefits and uses"
+    ],
+    "OFTHOUGHTSK": [
+        "2307.15337"
+    ]
+}
+INFO:     127.0.0.1:55717 - "POST /listfiledrawers/ HTTP/1.1" 200 OK
+Received token: FIFTOKENFORMAT
+Accounting/c209d3be-4fc4-48c0-b553-974766f538a2
+Accounting/KVP Individual Return Engagement Letter
+SKELETONOFTHOURHT/2307.15337
+your_filecabinet_name/file
+your_filecabinet_name/KVP Individual Return Engagement Letter
+USAIDPOLICY/PA00K7SH
+FIFDOCUMENT/FSD_BackOffice_LouiseV2-06012022
+FIFDOCUMENT/User Manual Guide Produktif v.1.0
+FIFDOCUMENT/FD Microfinance App_v1.2
+CHAINOFTHOUGHT/2201.11903
+GARLIC/8817288
+GARLIC/ajp-4-001
+GARLIC/Garlic_ Proven health benefits and uses
+OFTHOUGHTSK/2307.15337
+{'Accounting': ['c209d3be-4fc4-48c0-b553-974766f538a2', 'KVP Individual Return Engagement Letter'], 'SKELETONOFTHOURHT': ['2307.15337'], 'your_filecabinet_name': ['file', 'KVP Individual Return Engagement Letter'], 'USAIDPOLICY': ['PA00K7SH'], 'FIFDOCUMENT': ['FSD_BackOffice_LouiseV2-06012022', 'User Manual Guide Produktif v.1.0', 'FD Microfinance App_v1.2'], 'CHAINOFTHOUGHT': ['2201.11903'], 'GARLIC': ['8817288', 'ajp-4-001', 'Garlic_ Proven health benefits and uses'], 'OFTHOUGHTSK': ['2307.15337']}
+{
+    "Accounting": [
+        "c209d3be-4fc4-48c0-b553-974766f538a2",
+        "KVP Individual Return Engagement Letter"
+    ],
+    "SKELETONOFTHOURHT": [
+        "2307.15337"
+    ],
+    "your_filecabinet_name": [
+        "file",
+        "KVP Individual Return Engagement Letter"
+    ],
+    "USAIDPOLICY": [
+        "PA00K7SH"
+    ],
+    "FIFDOCUMENT": [
+        "FSD_BackOffice_LouiseV2-06012022",
+        "User Manual Guide Produktif v.1.0",
+        "FD Microfinance App_v1.2"
+    ],
+    "CHAINOFTHOUGHT": [
+        "2201.11903"
+    ],
+    "GARLIC": [
+        "8817288",
+        "ajp-4-001",
+        "Garlic_ Proven health benefits and uses"
+    ],
+    "OFTHOUGHTSK": [
+        "2307.15337"
+    ]
+}
+INFO:     127.0.0.1:55718 - "POST /listfiledrawers/ HTTP/1.1" 200 OK
+Received token: FIFTOKENFORMAT
+INFO:     127.0.0.1:55719 - "POST /message/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56625 - "POST /uploadfile/ HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56637 - "POST /uploadfile/ HTTP/1.1" 404 Not Found
