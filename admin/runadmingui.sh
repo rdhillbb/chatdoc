@@ -12,8 +12,8 @@ if [ $? -eq 0 ]; then
     echo "Ingestion Service is running on http://0.0.0.0:8050"
 else
     echo "ISSUE FOUND"
-    echo "Ingestion Service not running is not running on http://0.0.0.0:8050"
-    echo "Start the ingestion server in ../ingest/runingestserver.sh"
+    echo "Backend  Service not running is not running on http://0.0.0.0:8050"
+    echo "Start backend servcie at ../backend/runserve.sh"
     echo ""
     exit
 fi
