@@ -1,0 +1,25 @@
+#
+# Valid Entries
+# OpenAI
+# OpenAI:gpt-4-0125-preview
+# OpenAI:gpt-4-turbo-preview
+# DeepInfra
+#
+# DeepInfra
+#DeepInfra:mistralai/Mixtral-8x7B-Instruct-v0.1
+#OpenAI Chat
+#ChatOpenAI
+# ChatOpenAI:gpt-4-0125-preview
+# ChatOpenAI:gpt-4-turbo-preview
+
+#Groq
+#ChatGroq:mixtral-8x7b-32768
+#ChatGroq:llama2-70b-4096
+#
+#Anthropic
+#AnthropicLLM:claude-2.1
+default:
+  temperature: 0.7
+  n: 1
+  max_tokens: 4096 
+  request_timeout: 30
