@@ -4,8 +4,8 @@ import os
 from pydantic import BaseModel
 from typing import Optional, List
 from datetime import datetime
-
 sys.path.append("../")
+from config.llmload import set_modelInstance
 from fileops.fileutl import list_dir
 from chains.fchains import createLchain, createDchain, createQchain
 from objmsg.genloader import GMyLoader
@@ -17,6 +17,8 @@ from objmsg.messagedef import (
     FileOperationResp,
     FileOperationReq,
 )
+
+set_modelInstance()
 
 # Your existing Pydantic models
 # Initialize your rag_chain or equivalent processing logic
