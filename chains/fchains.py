@@ -13,6 +13,7 @@ from langchain_community.llms import DeepInfra
 
 sys.path.append("../")
 
+from config.llmload import  get_modelInstance
 from objmsg.genloader import GMyLoader
 from objmsg.fprompt import osprompt
 
@@ -77,7 +78,7 @@ def createQchain(path):
     # prompt = hub.pull("rlm/rag-prompt")
 
     # ADD YOUR MODEL HERE
-    if llmSetec != "OpenAI":
+    if llmSetec == "iXOpenAI":
         prompt.messages[0].prompt.template = osprompt
 
         llm = DeepInfra(model_id="mistralai/Mixtral-8x7B-Instruct-v0.1")
@@ -89,6 +90,7 @@ def createQchain(path):
         }
     else:
         llm = ChatOpenAI(model_name="gpt-4-0125-preview", temperature=0.6)
+    llm = getmodelInstance()
     # Use the retriever to fetch relevant content
 
     rag_chain = (
@@ -167,19 +169,12 @@ def createLchain(drawer: str):
 
     # LLM & Prompt Setuop
     llmSetec = os.environ.get("GOVBOTIC_LLM")
+    llm = get_modelInstance()
     # ADD YOUR MODEL HERE
-    if llmSetec != "OpenAI":
+    if "OpenAI" not in llmSetec:
         prompt.messages[0].prompt.template = osprompt
-        llm = DeepInfra(model_id="mistralai/Mixtral-8x7B-Instruct-v0.1")
-        llm.model_kwargs = {
-            "temperature": 0.6,
-            "repetition_penalty": 1.2,
-            "max_new_tokens": 8900,
-            "top_p": 0.3,
-        }
     else:
-        llm = ChatOpenAI(model_name="gpt-4-0125-preview", temperature=0.6)
-    # Use the retriever to fetch relevant content
+        prompt.messages[0].prompt.template = openaiprompt
 
     rag_chain = (
         {"context": retriever | format_docs, "question": RunnablePassthrough()}
