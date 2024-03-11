@@ -1,11 +1,11 @@
 #location for there the ingested documents
 export GOVBOTIC_INGESTION_STORAGE=""
 #Temporary storage for inestion
-export GOVBOTIC_FILE_SANDBOX=""
 export GOVBOTIC_FILE_SANDBOX="/tmp/TEMP"
-export GOVBOTIC_API_BASE_URL="http://127.0.0.1:8000"
 export GOVBOTIC_API_TOKEN="FIFTOKENFORMAT"
-export GOVBOTIC_ADMIN_SERVER="http://127.0.0.1:8050"
-export GOVBOTIC_LLM_DEEPINFRA="True"
 export DEEPINFRA_API_TOKEN=
 export OPENAI_API_KEY=
+export ANTHROPIC_API_KEY=
+export GOVBOTIC_LLM=DeepInfra:mistralai/Mixtral-8x7B-Instruct-v0.1
+# OPENAI OPTION
+#export GOVBOTIC_LLM=OpenAI:gpt-4-turbo-preview
