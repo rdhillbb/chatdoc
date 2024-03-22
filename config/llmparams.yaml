@@ -18,8 +18,10 @@
 #
 #Anthropic
 #AnthropicLLM:claude-2.1
+#
+#Ollma
+#Ollama:llama2
 default:
-  temperature: 0.7
-  n: 1
-  max_tokens: 4096 
+  temperature: 0.2
+  max_new_tokens: 18000 
   request_timeout: 30
